@@ -8,13 +8,14 @@ Cuando trabajas con varios proyectos en tu máquina (PC, portátil, Mac) hechos 
 Para solventar esto la comunidad de Python creo los entornos virtuales. Podríamos decir que es una forma de aislar el entorno de un proyecto de otro y de esta forma cada uno tenga sus propios paquetes o librerías independientes de los demás.
 
 ### ¿Cómo crear un entorno virtual en Python?
-Desde Python 3, la herramienta para crear entornos virtuales venv viene preinstalada así que si necesitamos crear un entorno virtual, solo debemos ir al directorio raíz de nuestro proyecto y lanzar el siguiente comando:
+Desde Python 3, la herramienta para crear entornos virtuales venv viene preinstalada así que si necesitamos crear un entorno virtual, solo debemos ir al directorio raíz de nuestro proyecto y lanzar el siguiente comando si se está trabajando en un entorno Linux:
 
 ```
-Entorno Linux
 python3 -m venv <nombre-entorno>
+```
 
-Entorno Windows
+En caso de estar trabajando en un entorno Windows, lanzar el siguiente comando:
+```
 python -m venv <nombre-entorno>
 ```
 
@@ -82,12 +83,13 @@ Este comando nos creará un directorio que contendrá la aplicación principal d
 
 ### Verificando que todo está funcionando
 
-Para verificar que el proyecto funciona correctamente, ejecutaremos el siguiente comando dentro de la carpeta del proyecto:
+Para verificar que el proyecto funciona correctamente, ejecutaremos el siguiente comando dentro de la carpeta del proyecto si estamos en un entorno Linux:
 ```
-Entorno Linux
 python3 manage.py runserver
+```
 
-Entorno Windows
+En caso de estar trabajando en un entorno Windows, lanzar el siguiente comando:
+```
 python manage.py runserver
 ```
 
