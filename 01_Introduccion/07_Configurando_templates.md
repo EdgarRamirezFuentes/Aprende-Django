@@ -27,7 +27,7 @@ Ahora comenzaremos a hacer nuestras propias templates para realizar nuestro hola
  <img  src="./assets/templates_hola.png" alt="templates hola"></a>
 </p>
 
-Una vez que hemos creado la carpeta que contendrá las templates de nuetra app "hola_mundo", procederemos a crear la plantilla base para nuestra app. La estructura del nombre de nuestras platilla será la siguiente:
+Una vez que hemos creado la carpeta que contendrá las templates de nuetra app "saludo", procederemos a crear la plantilla base para nuestra app. La estructura del nombre de nuestras platilla será la siguiente:
 ```
 <nombre-plantila>.html
 ```
