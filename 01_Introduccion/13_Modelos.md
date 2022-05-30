@@ -166,3 +166,13 @@ class Fruit(models.Model):
 - __unique__
 
 Si su valor es __True___, este campo deberá ser único en la tabla.
+
+# Relationship
+
+Una de las bondades de las bases de datos relacionales es poder relacionar la información existente entre las tablas contenidas en la base de datos, es por eso que Django nos permite realizar las siguientes relaciones dentro de nuestros modelos:
+- Many to One
+- Many to many
+- One to One
+- Foreign key
+
+Para más información lo puedes consultar en el siguiente [enlace](https://docs.djangoproject.com/en/4.0/topics/db/models/#relationships)
